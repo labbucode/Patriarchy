@@ -1,0 +1,19 @@
+.main-container{
+    /* background: url('https://edunewsnetwork.files.wordpress.com/2021/08/p2.jpeg'); */
+    height: 100%;
+}
+.container{
+    margin: 4%;
+}
+.para{
+    width: 90%;
+}
+
+.ulist {
+    display: grid;
+    gap: 15px;
+    margin: 3%;
+    text-align: center;
+    list-style: none;
+    font-size: 20px;
+}
