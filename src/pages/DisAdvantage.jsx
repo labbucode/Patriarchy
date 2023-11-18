@@ -1,19 +1,23 @@
 import React from 'react'
+import '../styles/DisAdvantage.css'
+import '../styles/DisAdvantage.css'
+import { useNavigate } from 'react-router-dom'
 
 export default function DisAdvantage() {
+  const navigate = useNavigate();
   return (
-    <div className='main-container'>
-    <div className='container'>
+    <div className='dis-main-container'>
+    <div className='dis-container'>
     <h1 style={{'textAlign': 'center'}}>Disadvantage of Patriarchy</h1>
-    <ul className='ulist'>
-    <li>1 Adv</li>
-    <li>2 Adv</li>
-    <li>3 Adv</li>
+    <ul className='dis-ulist'>
+    <li>Oppression of women</li>
+    <li>Wasted potential of women</li>
+    <li>Enhances gender issues</li>
     </ul>
    
     </div>
-    <div className="arrow-icon-right">&#9654;</div>
-    <div className="arrow-icon-left">&#9664;</div>
+    <div className="dis-arrow-icon-right" onClick={() => navigate('/reference')}>&#9654;</div>
+    <div className="dis-arrow-icon-left" onClick={() => navigate('/heropage')}>&#9664;</div>
     </div>
   )
 }

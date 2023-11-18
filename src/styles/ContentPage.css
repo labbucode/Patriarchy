@@ -3,42 +3,43 @@
   position: relative;
   top: 10%;
   height: 70%;
-    background-color: #f8f8f8;
+  color: white;
+    background-color: #155347;
     border: 1px solid #ddd;
     padding: 15px;
-    margin: 20px 7%;
+    margin: 6% 7%;
     border-radius: 5px;
   }
   
   .table-of-contents h2 {
     position: relative;
-    left: 38%;
+    left: 37%;
     font-size: 2.5em;
     margin-bottom: 5%;
   }
   
-  .arrow-icon-right{
+  .content-arrow-icon-right{
     font-size: 2em;
     position: absolute;
     top: 50%;
     right: 20px;
     transform: translateY(-50%);
     cursor: pointer;
-    color: #131212;
+    color: #155347;
   }
-  .arrow-icon-left{
+  .content-arrow-icon-left{
     font-size: 2em;
     position: absolute;
     top: 50%;
     left: 20px;
     transform: translateY(-50%);
     cursor: pointer;
-    color: #131212;
+    color: #155347;
   }
 
-  .list1{
+  .table-list{
     display: grid;
-    gap: 30%;
+   
   }
   
   
@@ -56,7 +57,7 @@
     display: flex;
     justify-content: space-around;
   }
-  .list{
+  .table-list-item{
     display: flex;
     flex-direction: row;
     justify-content: space-around;

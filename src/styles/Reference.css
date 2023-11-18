@@ -1,18 +1,22 @@
-.main-container{
-    /* background: url('https://edunewsnetwork.files.wordpress.com/2021/08/p2.jpeg'); */
-    height: 100%;
+.ref-main-container{
+  padding: 5px;
+  margin: 4% 9%;
+  height: 80vh;
+  width: 80vw;
+  background-color: #155347;
+  color: white;
 }
-.container{
+.ref-container{
     margin: 4% 10%;
 }
 
 
-  .arrow-icon-left{
+  .ref-arrow-icon-left{
     font-size: 2em;
     position: absolute;
     top: 50%;
     left: 20px;
     transform: translateY(-50%);
     cursor: pointer;
-    color: #131212;
+    color: #155347;;
   }

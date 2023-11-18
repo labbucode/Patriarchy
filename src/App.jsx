@@ -9,12 +9,12 @@ import Reference from './pages/Reference'
 function App() {
   return (
     <div className='body'>
-   {/* <CoverPage /> */}
+   <CoverPage />
    {/* <IndexPage /> */}
    {/* <HeroPage /> */}
    {/* <Advantage /> */}
    {/* <DisAdvantage /> */}
-   <Reference />
+   {/* <Reference /> */}
    </div>
   )
 }
