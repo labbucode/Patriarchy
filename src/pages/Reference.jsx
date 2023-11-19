@@ -1,10 +1,12 @@
 import React from 'react'
 import '../styles/Reference.css'
 import { useNavigate } from 'react-router-dom'
+import Footer from '../component/Footer';
 
 export default function Reference() {
   const navigate = useNavigate();
   return (
+    <>
     <div className='ref-main-container'>
     <div className='ref-container'>
     <h2 className='ref-h2'>Reference</h2>
@@ -17,5 +19,7 @@ export default function Reference() {
     </div>
     <div className="ref-arrow-icon-left" onClick={() => navigate('/disadvantage')}>&#9664;</div>
     </div>
+    <Footer />
+    </>
   )
 }
