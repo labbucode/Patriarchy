@@ -5,7 +5,6 @@ import { useNavigate } from 'react-router-dom'
 export default function HeroPage() {
   const navigate = useNavigate();
   return (
-    <>
     <div className='hero-container'>
       <div className='container'>
       <h1 style={{"marginBottom": '3%', "font-size": "3.5rem"}}>Patriarchy</h1>
@@ -21,9 +20,10 @@ export default function HeroPage() {
     <li>Obesession with Control</li>
     <li>Oppression of Women</li>
     </ul>
-    </div>
+   
     <div className="hero-arrow-icon-right" onClick={() => navigate('/advantage')}>&#9654;</div>
     <div className="hero-arrow-icon-left" onClick={() => navigate('/indexpage')}>&#9664;</div>   
-    </>     
+    </div>
+     
   )
 }

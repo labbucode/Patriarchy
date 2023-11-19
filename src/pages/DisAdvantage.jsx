@@ -8,7 +8,7 @@ export default function DisAdvantage() {
   return (
     <div className='dis-main-container'>
     <div className='dis-container'>
-    <h1 style={{'textAlign': 'center'}}>Disadvantage of Patriarchy</h1>
+    <h1 className='dis-h2'>Disadvantage of Patriarchy</h1>
     <ul className='dis-ulist'>
     <li>Oppression of women</li>
     <li>Wasted potential of women</li>
@@ -17,7 +17,7 @@ export default function DisAdvantage() {
    
     </div>
     <div className="dis-arrow-icon-right" onClick={() => navigate('/reference')}>&#9654;</div>
-    <div className="dis-arrow-icon-left" onClick={() => navigate('/heropage')}>&#9664;</div>
+    <div className="dis-arrow-icon-left" onClick={() => navigate('/advantage')}>&#9664;</div>
     </div>
   )
 }

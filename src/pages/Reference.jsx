@@ -7,11 +7,11 @@ export default function Reference() {
   return (
     <div className='ref-main-container'>
     <div className='ref-container'>
-    <h1 style={{"marginBottom": '4%'}}>Reference</h1>
-    <ul>
-    <li style={{"margin": '2%'}}><a href="https://www.youtube.com/watch?v=odt5hwIOeLI" style={{'color': 'white'}}>Youtube Channel 1</a></li>
-    <li style={{"margin": '2%'}}><a href="https://www.youtube.com/watch?v=T99kq8Kj22U" style={{'color': 'white'}}>Youtube Channel 2</a></li>
-    <li style={{"margin": '2%'}}><a href="https://www.youtube.com/watch?v=sLWKkFd5WEQ" style={{'color': 'white'}}>Youtube Channel 3</a></li>
+    <h2 className='ref-h2'>Reference</h2>
+    <ul className='ref-ulist'>
+    <li><a href="https://www.youtube.com/watch?v=odt5hwIOeLI" style={{'color': 'white'}}>Youtube Channel 1</a></li>
+    <li><a href="https://www.youtube.com/watch?v=T99kq8Kj22U" style={{'color': 'white'}}>Youtube Channel 2</a></li>
+    <li><a href="https://www.youtube.com/watch?v=sLWKkFd5WEQ" style={{'color': 'white'}}>Youtube Channel 3</a></li>
     </ul>
    
     </div>
