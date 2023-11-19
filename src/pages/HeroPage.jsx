@@ -2,12 +2,15 @@ import React from 'react'
 import '../styles/HeroPage.css'
 import { useNavigate } from 'react-router-dom'
 import Footer from '../component/Footer';
+import Header from '../component/Header';
+import '../styles/Header.css'
 
 
 export default function HeroPage() {
   const navigate = useNavigate();
   return (
     <>
+    <Header />
     <div className='hero-container'>
       <div className='container'>
       <h1 style={{"marginBottom": '3%', "font-size": "3.5rem"}}>Patriarchy</h1>

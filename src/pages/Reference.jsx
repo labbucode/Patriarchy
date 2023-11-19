@@ -2,11 +2,13 @@ import React from 'react'
 import '../styles/Reference.css'
 import { useNavigate } from 'react-router-dom'
 import Footer from '../component/Footer';
+import Header from '../component/Header';
 
 export default function Reference() {
   const navigate = useNavigate();
   return (
     <>
+    <Header />
     <div className='ref-main-container'>
     <div className='ref-container'>
     <h2 className='ref-h2'>Reference</h2>

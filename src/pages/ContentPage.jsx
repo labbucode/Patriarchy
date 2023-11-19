@@ -13,7 +13,6 @@ const IndexPage = () => {
         <p className='table-list-item'>1. Introduction</p>
         <p className='table-list-item'>2. Advantage</p>
         <p className='table-list-item'>3. Disadvantages</p>
-        <p className='table-list-item'>4. Additional Details</p>
         <p className='table-list-item'>5. Reference</p>
     </div>
    

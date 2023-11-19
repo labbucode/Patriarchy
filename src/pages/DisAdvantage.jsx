@@ -3,11 +3,13 @@ import '../styles/DisAdvantage.css'
 import '../styles/DisAdvantage.css'
 import { useNavigate } from 'react-router-dom'
 import Footer from '../component/Footer'
+import Header from '../component/Header'
 
 export default function DisAdvantage() {
   const navigate = useNavigate();
   return (
     <>
+    <Header />
     <div className='dis-main-container'>
     <div className='dis-container'>
     <h1 className='dis-h2'>Disadvantage of Patriarchy</h1>
