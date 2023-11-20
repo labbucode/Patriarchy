@@ -13,9 +13,9 @@ const IndexPage = () => {
     <div className='table-container'> 
     <div className='table-list'>
         <p className='table-list-item'>1. Introduction</p>
-        <p className='table-list-item'>2. Advantage</p>
+        <p className='table-list-item'>2. Advantages</p>
         <p className='table-list-item'>3. Disadvantages</p>
-        <p className='table-list-item'>5. Reference</p>
+        <p className='table-list-item'>5. References</p>
     </div>
    
     </div>

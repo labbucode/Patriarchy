@@ -11,7 +11,7 @@ export default function Reference() {
     <Header />
     <div className='ref-main-container'>
     <div className='ref-container'>
-    <h2 className='ref-h2'>Reference</h2>
+    <h2 className='ref-h2'>References</h2>
     <ul className='ref-ulist'>
     <li><a href="https://www.youtube.com/watch?v=odt5hwIOeLI" style={{'color': 'white'}}>Youtube Channel 1</a></li>
     <li><a href="https://www.youtube.com/watch?v=T99kq8Kj22U" style={{'color': 'white'}}>Youtube Channel 2</a></li>

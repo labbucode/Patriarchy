@@ -11,7 +11,7 @@ export default function Advantage() {
     <Header />
     <div className='adv-main-container'>
     <div className='adv-container'>
-    <h1 className='adv-h2'>Advantage of Patriarchy</h1>
+    <h1 className='adv-h2'>Advantages of Patriarchy</h1>
     <ul className='adv-ulist'>
     <li>Social Stability</li>
     <li>Family Structure</li>
