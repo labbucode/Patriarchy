@@ -12,16 +12,17 @@ export default function Advantage() {
     <div className='adv-main-container'>
     <div className='adv-container'>
     <h1 className='adv-h2'>Advantages of Patriarchy</h1>
-    <ul className='adv-ulist'>
-    <li>Social Stability</li>
-    <li>Family Structure</li>
-    <li>Preservation of Cultural Values</li>
+    <ul >
+    <li className='adv-list'>Social Stability</li>
+    <li className='adv-list'>Family Structure</li>
+    <li className='adv-list'>Preservation of Cultural Values</li>
     </ul>
    
     </div>
+    </div>
     <div className="advantage-arrow-icon-right" onClick={() => navigate('/disadvantage')}>&#9654;</div>
     <div className="advantage-arrow-icon-left" onClick={() => navigate('/heropage')}>&#9664;</div>
-    </div>
+ 
     <Footer />
     </>
   )

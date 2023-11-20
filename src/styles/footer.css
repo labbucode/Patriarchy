@@ -5,7 +5,8 @@
     height: 6%;
     width: 100%;
     position: fixed;
-    bottom: 1px;
+    bottom: 0;
     background-color: black;
     color: #fff;
+    font-size: 1.2rem;
 }

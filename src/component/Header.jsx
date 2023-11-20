@@ -14,9 +14,11 @@ const navigate = useNavigate();
                     <div className="nav-menu">
                         <ul>
                             <li onClick={() => navigate('/heropage')}>Introduction</li>
-                            <li onClick={() => navigate('/advantage')}>Advantage</li>
+                            <li onClick={() => navigate('/heropage')}>Characteries</li>
+                            <li onClick={() => navigate('/advantage')}>Advantages</li>
                             <li onClick={() => navigate('/disadvantage')}>Disadvantages</li>
-                            <li onClick={() => navigate('/reference')}>Reference</li>
+                            <li onClick={() => navigate('/disadvantage')}>Addtional Details</li>
+                            <li onClick={() => navigate('/reference')}>References</li>
                         </ul>
                     </div>
                 </div>

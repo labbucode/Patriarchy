@@ -1,21 +1,25 @@
 .hero-container{
     position: fixed;
     top: 14%;
-    left: 20%;
+    left: 7%;
     height: 70vh;
-    width: 60vw;
-    color: white;
-    background-color: #353736;
-    border: 1px solid #ddd;
+    width: 50vw;
+    color: black;
     padding: 15px;
     border-radius: 10px;
 }
+
+.hero-h2{
+    font-size: 2.5em;
+    margin: 0 0 7% 0;
+  }
 .container{
     margin: 0 0 0 6%;
 }
 .para{
     width: 90%;
     margin-bottom: 5%;
+    font-size: 2.0rem;
 }
 
 .ulist {
@@ -33,7 +37,7 @@
     right: 20px;
     transform: translateY(-50%);
     cursor: pointer;
-    color: #fff;
+    color: #333232;;
   }
   .hero-arrow-icon-left{
     font-size: 2em;
@@ -42,5 +46,5 @@
     left: 20px;
     transform: translateY(-50%);
     cursor: pointer;
-    color: #fff;
+    color: #333232;;
   }

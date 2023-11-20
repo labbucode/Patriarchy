@@ -12,15 +12,15 @@ export default function Reference() {
     <div className='ref-main-container'>
     <div className='ref-container'>
     <h2 className='ref-h2'>References</h2>
-    <ul className='ref-ulist'>
-    <li><a href="https://www.youtube.com/watch?v=odt5hwIOeLI" style={{'color': 'white'}}>Youtube Channel 1</a></li>
-    <li><a href="https://www.youtube.com/watch?v=T99kq8Kj22U" style={{'color': 'white'}}>Youtube Channel 2</a></li>
-    <li><a href="https://www.youtube.com/watch?v=sLWKkFd5WEQ" style={{'color': 'white'}}>Youtube Channel 3</a></li>
+    <ul >
+    <li className='ref-list'><a href="https://www.youtube.com/watch?v=odt5hwIOeLI">Youtube Channel 1</a></li>
+    <li className='ref-list'><a href="https://www.youtube.com/watch?v=T99kq8Kj22U">Youtube Channel 2</a></li>
+    <li className='ref-list'><a href="https://www.youtube.com/watch?v=sLWKkFd5WEQ">Youtube Channel 3</a></li>
     </ul>
-   
+    </div>
     </div>
     <div className="ref-arrow-icon-left" onClick={() => navigate('/disadvantage')}>&#9664;</div>
-    </div>
+   
     <Footer />
     </>
   )

@@ -1,28 +1,22 @@
 .ref-main-container{
   position: fixed;
     top: 14%;
-    left: 20%;
+    left: 7%;
     height: 70vh;
-    width: 60vw;
-    color: white;
-    background-color: #353736;
-    border: 1px solid #ddd;
-    padding: 3% 15px 15px 15px;
+    width: 50vw;
+    color: black;
+    padding: 15px;
     border-radius: 10px;
 }
-.ref-container{
-    margin: 4% 10%;
-}
+
 .ref-h2{
   font-size: 2.5em;
-    margin: 0 0 5% 4%;
+    margin: 0 0 7% 4%;
 }
-.ref-ulist{
-  display: grid;
-    gap: 15px;
-    margin: 6%;
-    list-style: none;
+.ref-list{
+    margin: 0 0 3% 2%;
     font-size: 2.0rem;
+    list-style: none;
 }
   .ref-arrow-icon-left{
     font-size: 2em;
@@ -31,5 +25,5 @@
     left: 20px;
     transform: translateY(-50%);
     cursor: pointer;
-    color: #fff;;
+    color: #333232;
   }

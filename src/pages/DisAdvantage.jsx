@@ -13,16 +13,17 @@ export default function DisAdvantage() {
     <div className='dis-main-container'>
     <div className='dis-container'>
     <h1 className='dis-h2'>Disadvantage of Patriarchy</h1>
-    <ul className='dis-ulist'>
-    <li>Oppression of women</li>
-    <li>Wasted potential of women</li>
-    <li>Enhances gender issues</li>
+    <ul className='dis-list'>
+    <li className='dis-list'>Oppression of women</li>
+    <li className='dis-list'>Wasted potential of women</li>
+    <li className='dis-list'>Enhances gender issues</li>
     </ul>
    
     </div>
+    </div>
     <div className="dis-arrow-icon-right" onClick={() => navigate('/reference')}>&#9654;</div>
     <div className="dis-arrow-icon-left" onClick={() => navigate('/advantage')}>&#9664;</div>
-    </div>
+    
     <Footer />
     </>
   )

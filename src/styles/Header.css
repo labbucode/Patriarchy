@@ -1,6 +1,6 @@
 
 header{
-    height: 9vh;
+    height: 12vh;
     width: 100%;
     background: #db4a4a;
     color: #fff;
@@ -8,6 +8,7 @@ header{
     top: 0;
     border: 0;
     box-shadow: 1px 1px 8px rgb(232, 232, 232);
+    border-bottom-left-radius: 30px;
 }
 nav{
     height: 100%;
